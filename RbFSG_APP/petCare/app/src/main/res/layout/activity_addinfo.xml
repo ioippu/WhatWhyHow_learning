@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="783dp"
+        android:layout_height="831dp"
+        android:id="@+id/imageView2"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/club2"
+        android:layout_gravity="center"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skip"
+        android:id="@+id/skip"
+        android:layout_gravity="right|bottom"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <ImageButton
+        android:id="@+id/laptop"
+        android:src="@drawable/laptop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="170dp"
+        android:background="#00ffffff"
+         />
+
+
+
+    <ImageButton
+        android:id="@+id/hosipital"
+        android:src="@drawable/hospital"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="49dp"
+        android:background="#00ffffff"
+        android:layout_marginBottom="146dp"
+        android:layout_gravity="left|bottom"
+         />
+
+    <ImageButton
+        android:id="@+id/r_phone"
+        android:src="@drawable/r_phone"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="168dp"
+        android:layout_marginLeft="10dp"
+        android:background="#00ffffff"
+        android:layout_gravity="left|top" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="6dp"
+        android:text="Rb-FSG"
+        android:autoText="false"
+        android:clickable="true"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal|top" />
+
+
+</FrameLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pony_rbfsg.petcare">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+        android:name=".Globalvar"
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="petCare"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:largeHeap="true"
+        android:hardwareAccelerated="true"
+        >
+
+        <activity android:name=".MainActivity"
+                  android:configChanges="keyboard|keyboardHidden|orientation"
+                  android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Set"
+            android:label="登入寵物資訊" >
+        </activity>
+
+        <activity
+            android:name=".Addinfo"
+            android:label="設定基本資料"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name=".Petinfo"
+            android:label="寵物資訊"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name=".ImageDirary"
+            android:label="生活日記" >
+        </activity>
+
+        <activity
+            android:name=".MedicalDiary"
+            android:label="醫療保健紀錄" >
+        </activity>
+
+        <activity
+            android:name=".ReminderInfo"
+            android:label="提醒功能" >
+        </activity>
+
+        <activity
+            android:name=".TakePic"
+            android:label="照相畫面"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name=".Display"
+            android:label="顯示雲端圖片" >
+        </activity>
+
+        <activity
+            android:name=".Album"
+            android:label="瀏覽相簿" >
+        </activity>
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>
